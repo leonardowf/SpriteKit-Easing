@@ -40,6 +40,11 @@ SKAction* action = [SKEase MoveToWithNode:node EaseFunction:CurveTypeSine Mode:E
 // Those add a setter that can be used to update a variable of your choice as the action updates
 ```
 
+##Cocoa Pods
+```
+pod 'SpriteKit-Easing', :git => 'https://github.com/leonardowf/SpriteKit-Easing.git
+```
+
 ####More to come... stay tuned...
 
 Thanks to [AHEasing](https://github.com/warrenm/AHEasing) for helping me make sense of this easing nonsense!
